@@ -45,3 +45,7 @@ The labels are based off the DST value of the event. A different DST value will 
 - 50 -100 is moderate -> label is 0 (not geoeffective)
 - 100- 250 is storm -> label is 1 (geoeffective)
 - 250+ is extreme -> for logistic regression the label is 1 aswell, if a mlp is used then it can be labelled 2
+
+
+## Logistic Regression
+I used logistic regression to classify the binary geoeffective problem, however, a more complex solution is required for the 3 class problem for extreme storms. Maybe a MLP, if not something more simple 
